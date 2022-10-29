@@ -7,7 +7,12 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 import javax.swing.*;
 
-@SpringBootApplication
+@SpringBootApplication(
+        scanBasePackages = {
+                "com.amigoscode.amqp",
+                "com.amigoscode.customer"
+        }
+)
 @EnableEurekaClient
 @EnableFeignClients(basePackages = "com.amigoscode.commons")
 public class CustomerApplication {
