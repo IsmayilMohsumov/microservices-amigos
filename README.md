@@ -14,3 +14,4 @@ This project isn't open for contributions
 
 ### Authors
 * **Ismayil Mohsumov**
+  --kubeconfig=C:\Users\mohsu\OneDrive\Desktop\amigosservices\amigoscode-kubeconfig.yaml 
